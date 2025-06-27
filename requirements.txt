@@ -1,5 +1,5 @@
 python-dotenv==1.0.1
-google-generativeai==0.8.5
+google-generativeai==0.3.2
 langchain>=0.0.350
 langchain-core>=0.1.29,<0.2
 langchain-community>=0.0.10

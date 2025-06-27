@@ -6,7 +6,7 @@ from langchain.agents import initialize_agent, AgentType
 from folder_tool import FolderTool
 
 class GeminiClient:
-    def __init__(self, api_key: str = None, model: str = "gemini-pro"):
+    def __init__(self, api_key: str = None, model: str = "gemini-1.5-flash"):
         if api_key is None:
             api_key = os.getenv("GEMINI_API_KEY")
             if not api_key:
